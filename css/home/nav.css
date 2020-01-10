@@ -1,0 +1,35 @@
+#hero{
+	height: 158px;
+	padding-top: 78px;
+}
+.wo-nav-container{
+	margin-top: 40px;
+}
+
+.wo-nav {
+	display: inline-block;
+}
+
+.wo-nav-ul {
+	float: right;
+
+}
+.wo-nav-active{
+	border-bottom: 4px solid;
+	border-color: red !important;
+}
+.wo-nav-li, .wo-nav-link {
+	display: inline-block;
+	list-style: none;
+	margin-right: 10px;
+	font-size: 29px;
+	font-family: sans-serif;
+	font-weight: 100;
+	color: #171616;
+}
+
+.wo-nav-link:hover{
+	border-bottom: 4px solid pink;
+	text-decoration:none;
+	color: #171616;
+}

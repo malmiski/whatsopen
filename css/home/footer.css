@@ -1,0 +1,38 @@
+#footer{
+	margin-top:100px;
+	height:270px;
+	min-height: 270px;
+	background-color: #363434;
+	padding: 0;
+}
+
+.wo-footer-logo{
+	margin-top:100px;
+	margin-left: auto;
+  display: inline-block;
+}
+
+.wo-footer-list{
+  display: inline-block;
+  float: right;
+  margin-right: 200px;
+}
+
+.wo-footer-list-item{
+  font-family: Helvetica;
+  font-weight: 700;
+  color: #f6f6f6;
+  font-size: 24px;
+  list-style: none;
+  margin-top: 30px;
+}
+
+
+.wo-footer-copyright{
+  font-family: Helvetica;
+  color: #f6f6f6;
+  font-size: 16px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}

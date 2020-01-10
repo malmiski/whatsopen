@@ -1,0 +1,67 @@
+#search-section{
+	padding-top: 180px;
+}
+.wo-search-input{
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 3px;
+	height: 52px;
+	width: 570px;
+	vertical-align: middle;
+	padding:10px;
+}
+
+.wo-search-btn{
+	height:52px;
+	width:52px;
+	border-radius: 5px;
+	text-decoration: none;
+	background-color: #fff;
+	content:" ";
+	background-image: url("../../img/magnifying-glass.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px solid black;
+	display: inline-block;
+	vertical-align: middle;
+}
+.wo-search-input:focus{
+	border-color: gray;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(34, 34, 26, 0.6);
+	background-color: #fdfdfd;
+  outline: 0 none;
+}
+
+.wo-search-label{
+	font-family: "Helvetica Neue";
+	font-size: 16px;
+	display:block;
+	font-weight: 100;
+}
+
+.wo-search-filters{
+	width: 100%;
+	height:82px;
+	background-color: #e4e4e4;
+	border-radius: 10px;
+	margin-top: 33px;
+	line-height: 82px;
+	padding-left: 34px;
+}
+
+.wo-search-filter-label{
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: 700;
+}
+.wo-search-filter-option{
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+.wo-search-filter-link,
+.wo-search-filter-link:hover{
+		color: black;
+		text-decoration: none;
+		margin-right: 66px;
+}

@@ -1,0 +1,42 @@
+.wo-search-result-container{
+  margin-top: 90px !important;
+  text-align: center;
+}
+
+.wo-search-result{
+    border: 4px solid #baefc8;
+    border-radius: 30px;
+    width: 315px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 28px;
+}
+
+.wo-search-result-name{
+  font-family: Helvetica Neue;
+  color: #606662;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.wo-search-result-hours,
+.wo-search-result-address{
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    color: #606662;
+    font-weight: 300;
+}
+
+.wo-search-result-hours{
+  margin-top: 34px;
+}
+
+..wo-search-result-address{
+  margin-top: 27px;
+}
+.wo-search-result-info{
+  display: inline-block;
+}
