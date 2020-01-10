@@ -7,7 +7,11 @@
 }
 
 .wo-nav {
-	display: inline-block;
+	float: right;
+	vertical-align: middle;
+}
+.wo-logo{
+	float: left;
 }
 
 .wo-nav-ul {
